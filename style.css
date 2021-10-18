@@ -10,10 +10,13 @@ a:active { color: white; }
 
 
 /* Group similar element properties to reduce amount of CSS. */
-header, ul, ol, iframe, .container {
+header, main, footer, div, ul, ol, iframe, .container {
 	margin: auto;
 }
 
+header, main, footer, div {
+	width: 1200px;
+}
 
 header, .bg-typeb {
 	background-color: #A36EB9;
@@ -63,37 +66,41 @@ hr {
 	width: 35%;
 	border: 2px solid #A36EB9;
 	padding: 3px 0 3px 0;
-	margin: 50px auto 50px auto;
+	margin: 80px auto 80px auto;
 }
 
 h1 {
 	font-family: 'Kalam','Times New Roman', Times, serif;
-	font-size: 68px;
+	font-size: 76px;
 	padding: 10px 0 0 0;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 38px;
 	padding: 5px 0 10px 0;
 }
 
 h3 {
-	font-size: 22px;
+	font-size: 32px;
 	padding: 5px 0 5px 0;
 }
 
 header > h2 {
-	font-size: 18px;
+	font-size: 28px;
 }
 
 nav > a {
 	font-family: 'Comfortaa','Times New Roman', Times, serif;
-	font-size: 22px;
+	font-size: 32px;
+}
+
+nav > a:before {
+	
 }
 
 p {
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 28px;
 }
 
 ul, ol {
@@ -102,6 +109,7 @@ ul, ol {
 	list-style-position: inside;
 	font-weight: 400;
 	margin-bottom: 30px;
+	font-size: 23px;
 }
 
 li {
@@ -131,7 +139,7 @@ iframe {
 }
 
 .container {
-	width: 500px;
+	width: 800px;
 }
 
 .left {
@@ -153,4 +161,12 @@ iframe {
 .bg-typeb {
 	padding: 15px 0 15px 0;
 	border-radius:  0 0 30px 30px;
+}
+
+.listcenter {
+	padding-left: 130px;
+}
+
+.uline {
+	text-decoration: underline;
 }
