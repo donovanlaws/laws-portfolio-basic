@@ -4,4 +4,4 @@ Personal Portfolio project published to GitHub Pages, personal website to collec
 ## Contact Me
  * [GitHub](https://github.com/donovanlaws)
  * [Twitter](https://twitter.com/donovan_laws)
- * [Email](mailto: donovanlaws@gmail.com)
+ * [Email](mailto:donovanlaws@gmail.com)
