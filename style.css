@@ -57,8 +57,7 @@ body{
 	background-repeat: repeat;
 	background-position: center;
 	background-size: contain;
-	width: 95%;
-	margin: 5px auto 0 auto;
+	margin: 5px auto 5px auto;
 	padding: 20px;
 }
 
