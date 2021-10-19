@@ -81,7 +81,8 @@ h2 {
 
 h3 {
 	font-size: 32px;
-	padding: 5px 0 5px 0;
+	padding: 0 0 0 0;
+	margin: 5px 0 5px 0;
 }
 
 header > h2 {
