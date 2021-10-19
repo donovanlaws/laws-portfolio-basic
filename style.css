@@ -2,9 +2,15 @@
 
 /* Center non specific text, color links. */
 * { text-align: center; }
-a:link { color: #6688AA; }
-a:visited { color: #6688AA; }
-a:hover { color: #BBFFFF; }
+a:link {
+	color: #f6e774;
+}
+a:visited {
+	color: #beb46a;
+}
+a:hover {
+	color: #fefadc;
+}
 a:active { color: white; }
 
 
