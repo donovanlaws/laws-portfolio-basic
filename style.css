@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Shadows+Into+Light&display=swap&family=Comfortaa&family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap&family=Comfortaa&family=Kalam&display=swap');
 
 /* Center non specific text, color links. */
 * { text-align: center; }
@@ -27,7 +27,7 @@ h1, h2 {
 	margin: 0 0 0 0;
 }
 
-h2, h3 {
+h2, h4 {
 	font-family: 'Comfortaa','Times New Roman', Times, serif;
 }
 
@@ -37,6 +37,24 @@ li, p {
 
 .ico, .double {
 	width: auto;
+}
+
+.uline, .lefttight {
+	font-weight: 700;
+}
+
+p, h4 {
+	font-weight: 500;
+	font-size: 28px;
+}
+
+ul, ol {
+	padding: 0;
+	text-align: left;
+	list-style-position: inside;
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-size: 23px;
 }
 
 
@@ -83,6 +101,11 @@ h3 {
 	font-size: 32px;
 	padding: 0 0 0 0;
 	margin: 5px 0 5px 0;
+	font-weight: 300;
+}
+
+h4 {
+	font-style: italic;
 }
 
 header > h2 {
@@ -96,20 +119,6 @@ nav > a {
 
 nav > a:before {
 	
-}
-
-p {
-	font-weight: 500;
-	font-size: 28px;
-}
-
-ul, ol {
-	padding: 0;
-	text-align: left;
-	list-style-position: inside;
-	font-weight: 400;
-	margin-bottom: 30px;
-	font-size: 23px;
 }
 
 li {
@@ -149,7 +158,6 @@ iframe {
 .lefttight {
 	text-align: left;
 	margin-bottom: 5px;
-	text-decoration: underline;
 }
 
 .bg-typea {
@@ -165,8 +173,4 @@ iframe {
 
 .listcenter {
 	padding-left: 130px;
-}
-
-.uline {
-	text-decoration: underline;
 }
